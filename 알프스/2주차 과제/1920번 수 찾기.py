@@ -8,7 +8,7 @@ def find(x, start, end):
     elif sList1[mid] > x:
         return find(x, 0, mid-1)
     elif sList1[mid] < x:
-        return find(x,  mid + 1, len(sList1)-1)
+        return find(x,  mid + 1, end)
 
 
 m = int(input())
